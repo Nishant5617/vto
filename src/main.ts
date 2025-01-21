@@ -13,7 +13,7 @@ import { bootstrapCameraKit } from "@snap/camera-kit";
 
   const mediaStream = await navigator.mediaDevices.getUserMedia({
     video: {
-      facingMode: "environment",
+      facingMode: "user",
     },
   });
 
